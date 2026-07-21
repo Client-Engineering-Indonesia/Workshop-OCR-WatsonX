@@ -169,7 +169,7 @@ A wizard opens. On the **Select source** step, choose your knowledge backend. Av
 
 Select **Upload files** and click **Next**.
 
-[Download the Assets here](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/Data%20NNS.xlsx)
+[Download the Assets here](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/Assets/Data%20NNS.xlsx)
 
 ![Select Source](./Assets/MD/9.%20Select%20Source.png)
 
@@ -519,7 +519,7 @@ The script configures `window.wxOConfiguration` with your `orchestrationID`, `ho
 
 Open your website's HTML file in a code editor. Paste the copied `<script>` block just before the closing `</body>` tag. The script sets up the watsonx Orchestrate chat widget that will appear on the page.
 
-[Download the HTML here](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/watsonx-orchestrate-chatbot-ocr-rag.html )
+[Download the HTML here](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/Assets/watsonx-orchestrate-chatbot-ocr-rag.html)
 
 ```html
 <script>
