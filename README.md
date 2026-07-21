@@ -30,4 +30,4 @@ Workshop-OCR-WatsonX/
 
 For the full hands-on lab instructions, refer to the official lab document:
 
-👉 **[Lab 1 — Building a QRIS Extractor AI Agent on IBM watsonx Orchestrate](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/Lab1_IBM_OCR.md)**
+👉 **[Lab 1 — Building a QRIS Extractor AI Agent on IBM watsonx Orchestrate](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/Lab1-IBM_WXO_OCR/Lab1_IBM_OCR.md)**
