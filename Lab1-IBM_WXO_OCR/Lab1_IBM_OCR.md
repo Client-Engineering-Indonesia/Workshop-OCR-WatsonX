@@ -50,7 +50,7 @@ A step-by-step guide to creating a **BI Assistance Agent** that can extract and 
 
 Open **IBM watsonx Orchestrate**. You will land on the chat home screen with the active agent shown in the left panel. Quick start prompt cards are displayed in the center.
 
-![Landing Page Watsonx Orchestrate](./Assets/MD/1.%20Landing%20Page%20Watsonx%20Orchestrate.png)
+![Landing Page Watsonx Orchestrate](../Assets/MD/1.%20Landing%20Page%20Watsonx%20Orchestrate.png)
 
 ---
 
@@ -58,7 +58,7 @@ Open **IBM watsonx Orchestrate**. You will land on the chat home screen with the
 
 Click the hamburger menu (☰) at the top-left to expand the navigation sidebar. Select **Build** to go to the agent builder area.
 
-![Go to Build Page](./Assets/MD/2.%20Go%20to%20Build%20Page.png)
+![Go to Build Page](../Assets/MD/2.%20Go%20to%20Build%20Page.png)
 
 ---
 
@@ -66,7 +66,7 @@ Click the hamburger menu (☰) at the top-left to expand the navigation sidebar.
 
 The **Build agents and tools** page lists all existing agents (27), tools (333), and knowledge sources (24). Click the blue **Create agent +** button in the top-right to start building a new agent.
 
-![Create Agent Page](./Assets/MD/3.%20Create%20Agent%20Page.png)
+![Create Agent Page](../Assets/MD/3.%20Create%20Agent%20Page.png)
 
 ---
 
@@ -79,7 +79,7 @@ Choose **Create from scratch** (selected by default) to build a fully custom age
 
 Click the **Create** button to proceed.
 
-![Create Agent](./Assets/MD/4.%20Create%20Agent.png)
+![Create Agent](../Assets/MD/4.%20Create%20Agent.png)
 
 ---
 
@@ -91,7 +91,7 @@ After creation, the agent configuration page opens. The left sidebar provides na
 
 The **Profile** section holds the agent description. The **Welcome message** section lets you customize what users see on the home screen (max 100 characters). The **Quick start prompts** section pre-populates conversation starters. The **Agent style** selector lets you pick between `ReAct Core` (Recommended), `Default` (Deprecated), or `ReAct` (Deprecated).
 
-![Agent Page – Profile](./Assets/MD/5.%20Agent%20Page.png)
+![Agent Page – Profile](../Assets/MD/5.%20Agent%20Page.png)
 
 ---
 
@@ -100,7 +100,7 @@ The **Profile** section holds the agent description. The **Welcome message** sec
 The **Knowledge** section is where you connect knowledge sources (files, databases, etc.). The **Toolset** section is where you attach tools and sub-agents. Both sections start empty — click **Add source** or **Add tool** to populate them.
 
 
-![Agent Page – Knowledge & Toolset](./Assets/MD/5.a.%20Agent%20Page.png)
+![Agent Page – Knowledge & Toolset](../Assets/MD/5.a.%20Agent%20Page.png)
 
 
 
@@ -110,7 +110,7 @@ The **Knowledge** section is where you connect knowledge sources (files, databas
 
 The **Toolset → Agents** panel lets you delegate tasks to sub-agents. The **Behavior** section is where you write free-text instructions that define how the agent thinks and responds.
 
-![Agent Page – Agents & Behavior](./Assets/MD/5.b.%20Agent%20Page.png)
+![Agent Page – Agents & Behavior](../Assets/MD/5.b.%20Agent%20Page.png)
 
 ---
 
@@ -118,7 +118,7 @@ The **Toolset → Agents** panel lets you delegate tasks to sub-agents. The **Be
 
 The **Guidelines** section lets you add individual rules for the agent. The **Chat with documents** and **Scheduling** toggles control additional features. The **Channels** section (Preview) enables deployment to Home page, Embedded agent, Teams, WhatsApp with Twilio, Facebook Messenger, and more.
 
-![Agent Page – Guidelines & Channels](./Assets/MD/5.c.%20Agent%20Page.png)
+![Agent Page – Guidelines & Channels](../Assets/MD/5.c.%20Agent%20Page.png)
 
 ---
 
@@ -130,7 +130,7 @@ In the **Profile** tab, scroll to the **Welcome message** field and replace the 
 
 This message is shown to every user when they open the chat (71/100 characters used).
 
-![Change Welcome Message](./Assets/MD/6.%20Change%20Welcome%20Message.png)
+![Change Welcome Message](../Assets/MD/6.%20Change%20Welcome%20Message.png)
 
 ---
 
@@ -142,7 +142,7 @@ In the **Quick start prompts** section, click **Add prompt +** and enter a relev
 
 This prompt appears as a one-click suggestion on the agent's home screen.
 
-![Change Quick Prompt Field](./Assets/MD/7.%20Change%20Quick%20Prompt%20Field.png)
+![Change Quick Prompt Field](../Assets/MD/7.%20Change%20Quick%20Prompt%20Field.png)
 
 ---
 
@@ -150,7 +150,7 @@ This prompt appears as a one-click suggestion on the agent's home screen.
 
 In the **Knowledge** tab, locate the **Knowledge sources** section. Click **Add source +** to begin adding a knowledge file to the agent.
 
-![Add Knowledge (panel)](./Assets/MD/8.%20Add%20Knowledge.png)
+![Add Knowledge (panel)](../Assets/MD/8.%20Add%20Knowledge.png)
 
 ---
 
@@ -171,7 +171,7 @@ Select **Upload files** and click **Next**.
 
 [Download the Assets here](https://github.com/Client-Engineering-Indonesia/Workshop-OCR-WatsonX/blob/main/Assets/Data%20NNS.xlsx)
 
-![Select Source](./Assets/MD/9.%20Select%20Source.png)
+![Select Source](../Assets/MD/9.%20Select%20Source.png)
 
 ---
 
@@ -179,7 +179,7 @@ Select **Upload files** and click **Next**.
 
 On the **Add knowledge** step, click the upload area or drag-and-drop your file. In the file picker that opens, navigate to **Downloads**, select **Data NNS** (the NNS code reference file), and click **Open**.
 
-![Add Knowledge – Upload](./Assets/MD/10.%20Add%20Knowledge.png)
+![Add Knowledge – Upload](../Assets/MD/10.%20Add%20Knowledge.png)
 
 ---
 
@@ -192,7 +192,7 @@ On the **Knowledge details** step, fill in:
 
 Click **Save** to finalize the knowledge source.
 
-![Naming The Knowledge](./Assets/MD/11.%20Naming%20The%20Knowledge.png)
+![Naming The Knowledge](../Assets/MD/11.%20Naming%20The%20Knowledge.png)
 
 ---
 
@@ -200,7 +200,7 @@ Click **Save** to finalize the knowledge source.
 
 Back on the agent page, go to **Toolset** and click **Add tool +** in the **Tools** section.
 
-![Add Tools](./Assets/MD/12.%20Add%20tools.png)
+![Add Tools](../Assets/MD/12.%20Add%20tools.png)
 
 ---
 
@@ -210,7 +210,7 @@ The **Add a tool** dialog appears. Under **Create new**, select **Agentic workfl
 
 > Other options available: Catalog, Local instance, MCP server, OpenAPI.
 
-![Select Agentic Workflow](./Assets/MD/13.%20Select%20Agentic%20Workflow.png)
+![Select Agentic Workflow](../Assets/MD/13.%20Select%20Agentic%20Workflow.png)
 
 ---
 
@@ -222,7 +222,7 @@ A dialog prompts you to name the workflow. Enter:
 
 Click **Start building** to open the workflow canvas.
 
-![Naming The Workflow](./Assets/MD/14.%20Naming%20The%20Workflow.png)
+![Naming The Workflow](../Assets/MD/14.%20Naming%20The%20Workflow.png)
 
 ---
 
@@ -230,7 +230,7 @@ Click **Start building** to open the workflow canvas.
 
 The workflow canvas opens showing an empty flow: **Start (0 inputs) → Add your first step → End (0 outputs)**. Use the left-side toolbar icons to add steps, variables, annotations, and navigate the canvas.
 
-![Agentic Workflow Landing Page](./Assets/MD/15.%20Agentic%20Workflow%20Landing%20Page.png)
+![Agentic Workflow Landing Page](../Assets/MD/15.%20Agentic%20Workflow%20Landing%20Page.png)
 
 ---
 
@@ -238,7 +238,7 @@ The workflow canvas opens showing an empty flow: **Start (0 inputs) → Add your
 
 Click **Add your first step +** on the canvas. A context menu appears. Navigate to **User activities → Collect from user → File upload** to add a step that requests a file from the user.
 
-![Add User Activity](./Assets/MD/16.%20Add%20User%20Activity.png)
+![Add User Activity](../Assets/MD/16.%20Add%20User%20Activity.png)
 
 ---
 
@@ -246,7 +246,7 @@ Click **Add your first step +** on the canvas. A context menu appears. Navigate 
 
 With the **File upload 1** node on the canvas, click the **+** button below it to add the next step. Navigate to **Add a flow activity → Document extractor** to insert an AI-powered extraction node after the file upload.
 
-![Add Document Extractor](./Assets/MD/17.%20Add%20Document%20Extractor.png)
+![Add Document Extractor](../Assets/MD/17.%20Add%20Document%20Extractor.png)
 
 ---
 
@@ -259,7 +259,7 @@ When the Document Extractor is added, choose the document format:
 
 Select **Structured**.
 
-![Select Structured](./Assets/MD/18.%20Select%20Structured.png)
+![Select Structured](../Assets/MD/18.%20Select%20Structured.png)
 
 ---
 
@@ -269,7 +269,7 @@ The Document Extractor needs training samples. Click **Drag and drop files here 
 
 Available samples: Sample1.png, Sample2.jpg, Sample3.jpeg, Sample4.jpeg, Test1, Test2, Test3.
 
-![Upload File Into Document Extractor](./Assets/MD/19.%20Upload%20File%20Into%20Document%20Extractor.png)
+![Upload File Into Document Extractor](../Assets/MD/19.%20Upload%20File%20Into%20Document%20Extractor.png)
 
 ---
 
@@ -277,7 +277,7 @@ Available samples: Sample1.png, Sample2.jpg, Sample3.jpeg, Sample4.jpeg, Test1, 
 
 After uploading Sample1, the Document Extractor shows the sample on the right and prompts you to define a schema on the left. Click **Define schema** to open the schema builder.
 
-![Define Schema](./Assets/MD/20.%20Define%20Schema.png)
+![Define Schema](../Assets/MD/20.%20Define%20Schema.png)
 
 ---
 
@@ -287,7 +287,7 @@ The schema dialog offers **Custom schema** (User-defined) or a large library of 
 
 Select **User-defined schema** under Custom schema, then click **Create** to build fields from scratch tailored to QRIS documents.
 
-![Create Schema](./Assets/MD/21.%20Create%20Schema.png)
+![Create Schema](../Assets/MD/21.%20Create%20Schema.png)
 
 ---
 
@@ -297,7 +297,7 @@ The schema editor opens showing **Metrics Summary** on the left and **Define you
 
 Fields to add for QRIS extraction: `MerchantName`, `NMID`, `TID`, `NNS`.
 
-![Add Field](./Assets/MD/22.%20Add%20Field.png)
+![Add Field](../Assets/MD/22.%20Add%20Field.png)
 
 ---
 
@@ -305,7 +305,7 @@ Fields to add for QRIS extraction: `MerchantName`, `NMID`, `TID`, `NNS`.
 
 After the first extraction run, review the **Extracted Value** vs **Correct Value** columns. If a field shows **No value** (e.g., the `NNS` field), click the three-dot menu (⋮) on that row and select **Edit** to manually enter the correct value. This corrected value becomes a training example.
 
-![Edit False Value](./Assets/MD/23.%20Edit%20False%20Value.png)
+![Edit False Value](../Assets/MD/23.%20Edit%20False%20Value.png)
 
 ---
 
@@ -320,7 +320,7 @@ For each field (e.g., `NNS`), a configuration panel opens on the right. You can 
 
 Enter an example value for the `NNS` field by using the **Select to copy** helper on the document preview, then click **Submit**.
 
-![Block The Example](./Assets/MD/24.%20Block%20The%20Example.png)
+![Block The Example](../Assets/MD/24.%20Block%20The%20Example.png)
 
 ---
 
@@ -336,7 +336,7 @@ To improve extraction accuracy, switch the underlying foundation model. Click th
 
 Select **llama-4-maverick-17b-128e-instruct-fp8** for best results with QRIS images.
 
-![Change Document Extractor LLM Models](./Assets/MD/25.%20Change%20Document%20Extractor%20LLM%20Models.png)
+![Change Document Extractor LLM Models](../Assets/MD/25.%20Change%20Document%20Extractor%20LLM%20Models.png)
 
 ---
 
@@ -346,7 +346,7 @@ Click **Add documents** at the bottom-left. In the file picker, select multiple 
 
 More samples improve model accuracy and generalization across different QRIS designs.
 
-![Add Another Sample For Better Train](./Assets/MD/26.%20Add%20Another%20Sample%20For%20Better%20Train.png)
+![Add Another Sample For Better Train](../Assets/MD/26.%20Add%20Another%20Sample%20For%20Better%20Train.png)
 
 ---
 
@@ -363,7 +363,7 @@ With all fields defined and the model set, click **Verify document** for `Sample
 
 If all values are correct, the document gets verified. Repeat for all other samples.
 
-![Verify Document](./Assets/MD/27.%20Verify%20Document.png)
+![Verify Document](../Assets/MD/27.%20Verify%20Document.png)
 
 ---
 
@@ -371,7 +371,7 @@ If all values are correct, the document gets verified. Repeat for all other samp
 
 Continue verifying each uploaded sample. Once `Sample1` reaches 100% accuracy, move to the remaining samples. The **Metrics Summary** panel tracks **Overall accuracy** across all documents. Here `Sample3.jpeg` shows 100% accuracy with all 4 fields correctly extracted from a different merchant (YAYASAN SERIBU CITA BANGSA).
 
-![Verify All Sample](./Assets/MD/28.%20Verify%20All%20Sample.png)
+![Verify All Sample](../Assets/MD/28.%20Verify%20All%20Sample.png)
 
 ---
 
@@ -379,7 +379,7 @@ Continue verifying each uploaded sample. Once `Sample1` reaches 100% accuracy, m
 
 Once all samples are verified and the workflow is complete, the header bar shows **Saved** (green dot). Click the **Done** button (top-right) to exit the workflow builder and return to the agent configuration page.
 
-![Exit Build Workflow By Click Done](./Assets/MD/29.%20Exit%20Build%20Workflow%20By%20Click%20Done.png)
+![Exit Build Workflow By Click Done](../Assets/MD/29.%20Exit%20Build%20Workflow%20By%20Click%20Done.png)
 
 ---
 
@@ -484,7 +484,7 @@ Back on the agent page, go to the **Behavior** tab. In the **Instructions** text
 
 After editing, refresh the page to ensure the latest tool configuration is loaded.
 
-![Setup Instruction & Refresh The Page](./Assets/MD/30.%20Setup%20Instruction%20%26%20Refresh%20The%20Page.png)
+![Setup Instruction & Refresh The Page](../Assets/MD/30.%20Setup%20Instruction%20%26%20Refresh%20The%20Page.png)
 
 ---
 
@@ -501,7 +501,7 @@ The agent:
    - **Compliance Summary**
    - **Anomalies & Warnings**
 
-![Agent Testing](./Assets/MD/31.%20Agent%20Testing.png)
+![Agent Testing](../Assets/MD/31.%20Agent%20Testing.png)
 
 ---
 
@@ -511,7 +511,7 @@ To embed the agent on an external website, go to **Channels** (Preview) in the a
 
 The script configures `window.wxOConfiguration` with your `orchestrationID`, `hostURL`, `rootElementID`, and `agentId`, then dynamically loads the `wxoLoader.js` file.
 
-![Copy Script](./Assets/MD/32.%20Copy%20Script.png)
+![Copy Script](../Assets/MD/32.%20Copy%20Script.png)
 
 ---
 
@@ -542,7 +542,7 @@ Open your website's HTML file in a code editor. Paste the copied `<script>` bloc
 </script>
 ```
 
-![Paste Script Into HTML File](./Assets/MD/33.%20Paste%20Script%20Into%20HTML%20file.png)
+![Paste Script Into HTML File](../Assets/MD/33.%20Paste%20Script%20Into%20HTML%20file.png)
 
 ---
 
@@ -552,7 +552,7 @@ Open the website in a browser. The **BI Assistance Agent** chat widget appears a
 
 The agent correctly extracts merchant data and the widget functions identically to the in-platform preview. The Bank Indonesia QRIS Intelligence Platform page shows stats: **130+ Registered NNS Codes**, **100+ Banks & E-Wallets**, **QRIS National Standard**.
 
-![Re Test in Custom HTML](./Assets/MD/34.%20Re%20Test%20in%20Custom%20HTML.png)
+![Re Test in Custom HTML](../Assets/MD/34.%20Re%20Test%20in%20Custom%20HTML.png)
 
 ---
 
